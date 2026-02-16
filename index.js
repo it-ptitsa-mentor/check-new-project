@@ -1,5 +1,6 @@
-function sum(a, b) {
-  return a + b;
+export function calculateDiscount(price, userType) {
+  if (userType === "regular") {
+    return price * 0.05;
+  }
+  return 0;
 }
-
-console.log(sum(1, 2));
